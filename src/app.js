@@ -5,7 +5,6 @@
 global.Promise = require('bluebird')
 const _ = require('lodash')
 const config = require('config')
-const healthcheck = require('topcoder-healthcheck-dropin')
 const Kafka = require('no-kafka')
 const logger = require('./common/logger')
 const { getKafkaOptions } = require('./common/utils')
